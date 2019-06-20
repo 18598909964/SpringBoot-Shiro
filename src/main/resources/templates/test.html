@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 th:text="${name}+@{helloShiro}"></h1>
+<a th:href="@{https://www.baidu.com}">点我百度</a>
+<a th:href="@{addTest}">添加</a>
+</body>
+</html>
